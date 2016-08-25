@@ -1,6 +1,6 @@
 # Benchmark - Loop
 
-Testing loops
+Some looping tests
 
 
 ## Install
