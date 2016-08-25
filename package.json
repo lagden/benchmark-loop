@@ -1,0 +1,19 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "description": "Some tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node for.js && node for-each.js && node for-of.js && node map.js"
+  },
+  "keywords": [
+    "tests"
+  ],
+  "author": "Thiago Lagden",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.15.0"
+  },
+  "loop": 9999999
+}
