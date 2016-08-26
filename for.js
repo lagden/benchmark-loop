@@ -4,10 +4,10 @@ const _ = require('lodash');
 const total = require('./package.json').loop;
 
 const nums = _.range(total);
-const r = [];
+let r;
 
 console.time('for');
 for (let i = 0; i < nums.length; i++) {
-	r.push(nums[i] + 1);
+	r = nums[i];
 }
-console.timeEnd('for');
+console.timeEnd('for', r);

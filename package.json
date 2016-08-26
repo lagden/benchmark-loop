@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node for.js && node for-each.js && node for-of.js && node map.js"
+    "start": "node for.js && node for-each.js && node for-of.js"
   },
   "keywords": [
     "tests"
